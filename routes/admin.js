@@ -3,7 +3,7 @@ const path = require('path');
 const router = express.Router();
 const rootDir = require('../utils/path');
 
-router.get("/add_product",(req,res,next)=>{
+router.get("/add-product",(req,res,next)=>{
 
  //   res.send('<form method="POST" action="/admin/product"> <input type="text" name="title"/> </form>');
 
